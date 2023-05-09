@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html {
+  font-size: 10px;
+  background: #ff99aa;
+}
+
+body {
+  font-family: 'DM Sans',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #ffddee;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0;
+  color: white;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ffbbbb;
+}
+
+#main {
+  margin: 0rem 10rem;
+  padding: 1.5rem;
+  background: #ff5577;
+  box-shadow: 0px 0px 30px 5px #aa1133;
+}
+
+@media (max-width: 768px) {
+  #main {
+    margin: 0rem 3rem;
+  }
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0rem;
+  }
+}
+
+img {
+  display: block;
+}
+
+#image {
+  width: 100%;
+}
+
+#img-div {
+  background: white;
+}
+
+#img-caption {
+  color: white;
+  background-color: #cc2244;
+  margin: 0rem;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+#headline {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 5rem auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 2rem 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #cc2244;
+}
+
+strong {
+  color: white;
+}
